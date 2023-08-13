@@ -1,7 +1,7 @@
 # Hvordan sætter jeg mit projekt op med webstorm og github (╯°□°)╯︵ ┻━┻
 
 Kursusvideoguide: https://www.youtube.com/watch?v=s5G-KNKbg00
-(OBS: det er Webstorm og ikke Jetbrain i år, men de virker stort set ens)
+(OBS: Videoen er lidt forældet men principperne virker stort set ens. Ellers findes der uendelige guides på nettet...)
 
 <h3>1. Hvordan opretter jeg et nyt repository (repo) på Github? ( GITHUB.com ) </h3>
 <ol>
@@ -31,15 +31,15 @@ Kursusvideoguide: https://www.youtube.com/watch?v=s5G-KNKbg00
            <li>(TERMINAL) Opret et ny projekt med expo: expo init PROJEKTNAVN </li>
             <li>Hvis du oprettet med EXPO, så initialisere den git configuration ( så man behøver ikke skrive git init i projektet ) </li>
             <li>Åben dit nye projekt Øvelse/PROJEKTNAVN i Webstorm</li>
-           <li>(I WebStorm ) find .gitignore og åben filen og tilføj .idea mappen</li>
-           <li>(I WebStorm ) Commit på check ikonet</li>
-           <li>(I WebStorm ) skriv en commit besked </li>
-           <li>(I WebStorm ) Klik på push med pilen nedad på commit <li>
-           <li> (I WebStorm )Ser siger WebStorm man skal have en origin og der skal du kopier dit origin URL </li>
+           <li>(I din IDE) find .gitignore og åben filen og tilføj .idea mappen</li>
+           <li>(I din IDE) Commit på check ikonet</li>
+           <li>(I din IDE) skriv en commit besked </li>
+           <li>(I din IDE) Klik på push med pilen nedad på commit <li>
+           <li> (I din IDE) Ser siger Terminal man skal have en origin og der skal du kopier dit origin URL </li>
            <li>(PÅ GITHUB.com ) Find det oprettet repositories url fx: https://github.com/Eigilak/video.git </li>
-           <li> (i Webstorm ) tryk OK og push </li>
+           <li> (I din IDE) tryk OK og push </li>
             <li>(PÅ GITHUB ) Check om dine ting er pushet</li>
-            <li>(I Webstorm ) Gå til GIT indstilingerne og kig på LOG</li>
+            <li>(I din IDE) Gå til GIT indstilingerne og kig på LOG</li>
        </ol>
     </li>
 </ol>
