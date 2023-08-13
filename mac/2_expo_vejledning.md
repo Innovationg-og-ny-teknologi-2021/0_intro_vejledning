@@ -38,7 +38,7 @@ Når installationen er færdig, skal du hente expo-app'en fra din AppStore.
 2. Skriv nu `expo init projektnavn` og vælg blank 
 
 3. Find nu dit `projektnavn` og åben det i webstorm, og derefter i webstorms terminal kør 
-`npm start`
+`expo start`
    ![img.png](billeder/screenshot4.png)
    
 4. Nu skal et vindue med expo intefacet åbne og tryk nu på tunnel i venstre side for at scanne din første app.
