@@ -1,12 +1,7 @@
 # Opsætning af expo - React native Mobil apps
 
 #### Før du kan gå igang skal du have følgende:
-1. **Command line developer tools** ( ikke et krav ) 
-   1. Har du det installeret? tjek ved at skrive `xcode-select --version`i terminalen
-   2. Installer command line developer tools med `xcode-select --install` i terminalen. 
-   2. Du skal være færdig med at installere dette værktøj, før du kan gå videre 
-   3. Når det er installeret, så kør `xcode-select --version` for at tjekke om det er installeret, hvis du får versionnummer, så er du good to go 
-2. **Node**
+1. **Node**
    1. Tjek om det er installeret ved at skrive følgende: `Node -v`,
       Hvis den giver et version nummer som `18.17.1` så er du good to go <br> <br>
    2. Hvis du får `zsh: command not found`, så hent det med homebrew ved først at skrive `brew update && brew upgrade && brew install node`
@@ -17,7 +12,7 @@
       6. Hvis du får fejl ved brew upgrade, så kig på fejlene og ret dem ( )
    3. Når homebrew har installeret node, så prøv at køre `Node -v` igen
    
-3. ****watchman****
+2. ****watchman****
    1. Installeres ved at åbne terminalen og køre `brew update && brew upgrade && brew install watchman`
    2.  Kør `watchman --v ` for at tjekke om det er installeret
    3. læs mere på https://facebook.github.io/watchman/docs/install.html 
