@@ -1,4 +1,4 @@
-## Vejledning til opsætning til øvelser af innovation og ny teknologi 2022
+## Vejledning til opsætning til øvelser af innovation og ny teknologi 2023
 
 #### I denne vejledning skal slutproduktet være
 <ul>
