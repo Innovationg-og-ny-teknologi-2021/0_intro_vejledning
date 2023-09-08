@@ -8,7 +8,7 @@
    3. Når det er installeret, så kør `xcode-select --version` for at tjekke om det er installeret, hvis du får versionnummer, så er du good to go 
 2. **Node**
    1. Tjek om det er installeret ved at skrive følgende: `Node -v`,
-      Hvis den giver et version nummer som `12.18.3` så er du good to go <br> <br>
+      Hvis den giver et version nummer som `18.17.1` så er du good to go <br> <br>
    2. Hvis du får `zsh: command not found`, så hent det med homebrew ved først at skrive `brew update && brew upgrade && brew install node`
       3. Hvis du får en `Command not found ` med homebrew, så installer det ved at åbne din terminal og 
          kopier følgende ind i din terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)`
