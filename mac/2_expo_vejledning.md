@@ -1,57 +1,79 @@
 # Opsætning af expo - React native Mobil apps
 
-#### Før du kan gå igang skal du have følgende:
-1. **Node**
-   1. Tjek om det er installeret ved at skrive følgende: `Node -v`,
-      Hvis den giver et version nummer som `18.17.1` så er du good to go <br> <br>
-   2. Hvis du får `zsh: command not found`, så hent det med homebrew ved først at skrive `brew update && brew upgrade && brew install node`
-      3. Hvis du får en `Command not found ` med homebrew, så installer det ved at åbne din terminal og 
-         kopier følgende ind i din terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)`
-      4. Prøv nu at køre `brew install node`
-      5. læs mere på https://brew.sh/index_da
-      6. Hvis du får fejl ved brew upgrade, så kig på fejlene og ret dem ( )
-   3. Når homebrew har installeret node, så prøv at køre `Node -v` igen
-   
-2. ****watchman****
-   1. Installeres ved at åbne terminalen og køre `brew update && brew upgrade && brew install watchman`
-   2.  Kør `watchman --v ` for at tjekke om det er installeret
-   3. læs mere på https://facebook.github.io/watchman/docs/install.html 
+1. Start med at åbn din terminal. 
 
-#### Anvend den officielle guide til at installere expo - guiden findes på følgende link: https://docs.expo.io/get-started/installation/
-- OBS - Det er vigtigt at skrive npm install --global expo-cli og IKKE npm install expo-cli
+2. **Hvis du får adgangs problemer med at kører kommandoer i denne guide, skriv `sudo` før hvert kommando for at kører det som administrator**
 
-Når installationen er færdig, skal du hente expo-app'en fra din AppStore.
+3. Hvis du oplever fejl med kommandoer, læs først hvad terminalen siger og prøv selv at rette det, hvis det ikke lykkes, tilkald hjælp
 
-- App-ikonet kan ses på billedet herunder
-  
-  ![expo](billeder/expoIcon.png)
+## Homebrew
+Tjek om det er installeret ved at skrive følgende: `brew -v`
+Hvis terminalen svar med et versions nr. gå videre til "Homebrew installeret", hvis du får `zsh: command not found`, eller andet end en versions nr. gå videre til Installere Homebrew.
 
-#### Kør dit først expo projekt!
-1. find den mappe du vil oprette dit første projekt, og træk den mappe ned i terminalen, så mappe navnet står til venstre prompten
-![img.png](billeder/img.png)
+### Installere Homebrew
+1. Gå til: [https://brew.sh/](https://brew.sh/)
 
-2. Skriv nu `expo init projektnavn` og vælg blank 
+2. Kopier install curl i din terminal
 
-3. Find nu dit `projektnavn` og åben det i webstorm, og derefter i webstorms terminal kør 
-`npm start`
-   ![img.png](billeder/screenshot4.png)
-   
-4. Nu skal et vindue med expo intefacet åbne og tryk nu på tunnel i venstre side for at scanne din første app.
-   ![](billeder/screenshot5.png)
-   
-5. resultatet skulle være at du skal se denne tekst `Open up App.js to start working on your app!`
+3. Tjek om det er installeret korrekte ved at skrive følgende: `brew -v`
 
-6. prøv at ændre i webstorm filen app.js og se teksten ændre sig
+### Homebrew Installeret
+1. I terminalen, skriv `brew update && brew upgrade`
+
+## Watchman
+Expo krever en pakke kaldt Watchman for at kører, derfor skal vi installere den ved kopier følgende i terminalen:
+```
+brew install watchman
+```
+For at tjekke om installationen er fuldført korrekt, kør: `watchman --v `
+
+## Node
+
+1. Tjek om det er installeret ved at skrive følgende: `node -v`, Hvis den giver et version nummer som `18.17.1` eller højere så er du good to go.
+
+2. Hvis du alligvel ønsker at opdatere til den nyeste version, læs videre på næste afsnit.
+
+### Download Node
+
+Følg den officiele hjemmeside for at sikre den bedste installation: https://nodejs.org/en
+
+### Opdatere Node
+1. Clear npm cache: `npm cache clean --force`
+
+2. Installere n package med kommandoen: `npm install -g n``
+
+3. For at opdatere Node til den sidste version, kør: `n latest``
+
+4. Tjek nu: `node -v` & `npm -v`
 
 
+## Expo
+Før du går videre, tjek om nedenstående er opfyldt:
 
-### Fejl og løsninger
-1. Får du fejl ved installation af watchman, så prøv at afinstallere homebrew og installer det igen : https://github.com/Homebrew/install
-   - Kan også løse mange andre problemer med homebrew
-2. Kan du ikke køre Tunnel funktionen med expo? --> stop serveren med control + c, også skriv npm install -global @expo/ngrok
-3. Problemer med webstorm ikke kan oprette forbindelse: Bliv ved med at opdatere, indtil den opretter forbindelse
-4. Kan du ikke installere xcode-select --install, eller går det for langsomt, så hop af eduroam, og gør det på din mobils wifi
-5. Har du problemer med, at expo instansen crasher: så prøv at gå ind under indstillinger --> security --> privacy og så  full disk access og tryk watchman af !
+ - [ ] Watchman er installeret;
+ - [ ] Node med version > 18.17.1.
 
-[Skærmbillede 2021-09-10 kl  10 00 54](https://user-images.githubusercontent.com/48329669/132821334-3768fa81-2a01-4bbf-8d51-5cfd65161352.png)
+1. Gå til: https://expo.dev/ og lave en konto ved at trykke på "Sign Up"
+
+2. Download Expo Go på din mobil: https://expo.dev/go
+
+3. Vi anbefaler at i laver en mappe "INNT_Exercises", hvor i kan gemme jeres opgaver.
+
+### Start din første expo projekt!
+1. Åbn Visual Studio Code (VS Code) eller Webstorm og åbn jeres mappe samt en terminal i VS Code
+
+2. I terminalen kør: npx create-expo-app --template
+
+3. Måske vil den promte jer om at skrive "y" eller "n" til version 3.0 - skriv "y" og godkende.
+
+4. Choose a template: brug arrow-keys og vælg "Blank (Bare)"  template
+
+5. Give dit app et navn, såsom "my_first_app"
+
+6. Expo går i gang med at kreere din app, når den er færdig navigere ind til projektet via terminalen ved at kør: `cd my_first_app`
+
+7. Når du er kommet ind til mappen, kør `npx expo start` for at initiere appen. Hvis du oplever problemer med denne step, kør først `npm install` og derefter `npx expo start --tunnel`
+
+8. Scan QR koden på skærmen og værsgo!
+
 
