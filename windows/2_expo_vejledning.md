@@ -23,7 +23,7 @@
    ![img.png](billeder/screenshot4.png)
 
 4. Dernæst åbnes terminalen med expo interfacet. Check først at din computer og telefon kører på det samme net. Scanning af QR-koden foregår ved brug af expo appen.
-#### OBS!!! Hvis cbs-nettet / eduroam ikke virker, kan det være nødvendigt at gå på mobil-hotspot. 
+# OBS!!! Hvis cbs-nettet / eduroam ikke virker, kan det være nødvendigt at gå på mobil-hotspot. 
    ![](billeder/screenshot5.png)
 
 5. Resultatet skulle være at du skal se denne tekst `Open up App.js to start working on your app!`
