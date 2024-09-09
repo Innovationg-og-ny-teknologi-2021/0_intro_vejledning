@@ -5,7 +5,7 @@
 
 2. Husk at bekræfte din E-mail.
 ## Trin 2: Ansøg om GitHub Student Developer Pack
-1. Gå til [GitHub Education](https://education.github.com/), og klik på "Get benefits" øverst på siden.
+1. Gå til [GitHub Education](https://github.com/education/students), og klik på "Join GitHub Education" øverst på siden.
 
 2. Følg anvisningerne for at bekræfte din status som studerende.
 
@@ -15,11 +15,7 @@
 
 1. Log ind på din GitHub-konto.
 
-2. Gå til [GitHub Copilot](https://copilot.github.com/) siden.
-
-3. Klik på "Get Copilot for free".
-
-4. Vælg den relevante mulighed for at indløse Copilot som en del af GitHub Student Developer Pack.
+2. Følg [GitHubs anvisninger](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer)
 
 ## Trin 4: Installer GitHub Copilot-udvidelsen til VS Code
 
@@ -42,4 +38,3 @@
 3. Brug "Tab" eller "Enter" for at acceptere forslag fra Copilot og integrere dem i din kode.
 
 Husk, at Copilot er en hjælpeværktøj og ikke altid giver helt nøjagtige løsninger. Det er vigtigt at forstå og gennemgå den kode, du implementerer, for at sikre, at den opfylder dine behov.
-
