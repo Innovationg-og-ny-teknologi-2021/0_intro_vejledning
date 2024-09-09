@@ -20,7 +20,6 @@
 2. Skriv nu `npx create-expo-app` og vælg 'blank'
 3. Find nu dit projekt i Webstorm, og aktivér projektet ved at skrive
    `expo start` i terminalen
-   ![img.png](billeder/screenshot4.png)
 
 4. Dernæst åbnes terminalen med expo interfacet. Check først at din computer og telefon kører på det samme net. Scanning af QR-koden foregår ved brug af expo appen.
 # OBS!!! Hvis cbs-nettet / eduroam ikke virker, kan det være nødvendigt at gå på mobil-hotspot. 
