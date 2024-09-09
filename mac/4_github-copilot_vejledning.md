@@ -15,11 +15,7 @@
 
 1. Log ind på din GitHub-konto.
 
-2. Gå til [GitHub Copilot](https://copilot.github.com/) siden.
-
-3. Klik på "Get Copilot for free".
-
-4. Vælg den relevante mulighed for at indløse Copilot som en del af GitHub Student Developer Pack.
+2. Følg [GitHubs anvisninger](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer)
 
 ## Trin 4: Installer GitHub Copilot-udvidelsen til VS Code
 
