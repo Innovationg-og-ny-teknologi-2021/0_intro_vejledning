@@ -5,7 +5,7 @@
 
 2. Husk at bekræfte din E-mail.
 ## Trin 2: Ansøg om GitHub Student Developer Pack
-1. Gå til [GitHub Education](https://education.github.com/), og klik på "Get benefits" øverst på siden.
+1. Gå til [GitHub Education](https://github.com/education/students), og klik på "Join GitHub Education" øverst på siden.
 
 2. Følg anvisningerne for at bekræfte din status som studerende.
 
