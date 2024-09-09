@@ -2,7 +2,7 @@
 
 ## Vejledning til opsætning af Webstorm på windows
 
-Det anbefales af I benytter <b>Visual Studio Code</b> eller <b>Webstorm</b> som jeres editor. I må gerne bruge andre editorer, såsom atom, men de anbefalet IDE er editorne, som instructorne har mest erfaring med. Der findes også en ny IDE fra Google specifikt til App Udvikling her: https://developer.android.com/studio men den har vi ikke erfaring med.  
+Det anbefales af I benytter <b>Visual Studio Code</b> https://code.visualstudio.com/?wt.mc_id=DX_841432 eller <b>Webstorm</b> som jeres editor. I må gerne bruge andre editorer, såsom atom, men de anbefalet IDE er editorne, som instructorne har mest erfaring med. Der findes også en ny IDE fra Google specifikt til App Udvikling her: https://developer.android.com/studio men den har vi ikke erfaring med.  
 
 0. Har du ikke brugt Webstorm før, skal du lave en ny Webstorm-konto på: https://account.jetbrains.com - du skal også aktivere en student-license ![Studentslicense](https://user-images.githubusercontent.com/85865074/131469143-25a2ca3c-a1a9-42bf-a469-1bdba099dea2.PNG)
 
