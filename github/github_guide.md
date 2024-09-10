@@ -15,6 +15,7 @@ Hvis du ikke er komfortable med brugen af kommandoer og arbejde i terminal, så 
 
 Hvis du heller vil prøve kræfter med github kommandoer (som typisk bruges meget mere i virksomheder) så er der her en guide. 
 
+
 # Github Push, Pull og Merge
 
 ## 1 - Opret en GitHub Repository
@@ -23,6 +24,7 @@ Hvis du heller vil prøve kræfter med github kommandoer (som typisk bruges mege
 2. Klik på "New" for at oprette et nyt repository.
 3. Giv dit repository et navn, og vælg om det skal være "Public" eller "Private".
 4. Klik på "Create repository".
+
 
 ## 2 - Opsæt Git Lokalt
 
@@ -33,6 +35,7 @@ Hvis du heller vil prøve kræfter med github kommandoer (som typisk bruges mege
    git config --global user.name "DitNavn"
    git config --global user.email "dinemail@example.com"
    ```
+
 
 
 ## 3 - Opret Git Repository
@@ -47,6 +50,7 @@ Hvis du heller vil prøve kræfter med github kommandoer (som typisk bruges mege
     git init
     ```
 
+
 ## 4 - Tilføj filer til Git
 
 1. Tilføj de filer, du ønsker at spore:
@@ -59,12 +63,14 @@ Hvis du heller vil prøve kræfter med github kommandoer (som typisk bruges mege
     git add filnavn.txt
     ```
 
+
 ## 5 - Lav en Commit
 
 1. Lav en commit med en valgfri besked:
     ```
     git commit -m "Initial commit"
     ```
+
 
 ## 6 - Opret forbindelse til GitHub
 
@@ -80,6 +86,7 @@ Hvis du heller vil prøve kræfter med github kommandoer (som typisk bruges mege
     git remote -v
     ```
 
+
 ## 7 - Push projektet til GitHub
 
 1. Push dine ændringer til GitHub:
@@ -91,6 +98,7 @@ Hvis du heller vil prøve kræfter med github kommandoer (som typisk bruges mege
     ```
     git push -u origin master
     ```
+
 
 ## 8 - Pull ændringer fra GitHub
 
@@ -110,6 +118,7 @@ Hvis du heller vil prøve kræfter med github kommandoer (som typisk bruges mege
     ```
 
 Disse er typisk filer du ikke behøver gemme i dit online repo da de installeres lokalt ved npm install
+
 
 # Gode tips til når i arbejder med jeres repo (især til gruppe arbejde)
 
@@ -138,6 +147,7 @@ Branches hjælper jer holde styr på forskellige versioner af jeres produkt. Ved
     ```
     git merge ny-branch-navn
     ```
+
 
 ## 2 - Brug af Git Stash
 
@@ -168,13 +178,14 @@ Hvis du arbejder på noget, men ikke er klar til at committe, kan du midlertidig
     git stash pop
     ```
 
+
 ## 3 - Se status på dit repository
 
 Du kan altid tjekke status på dit repository for at se hvilke filer, der er ændret, eller hvilke der skal committes:
-
     ```
     git status
     ```
+
 
 ## 4 - Se commit historik
 
@@ -182,6 +193,7 @@ For at se historikken for commits i dit repository, brug:
     ```
     git log
     ```
+
 
 ## 5 - Fejlretning og TIlbagetrækning
 
