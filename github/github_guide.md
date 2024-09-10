@@ -1,4 +1,5 @@
-# Git & GitHub Guide: Brug af Terminalen
+# Git & GitHub Guide: Brug af Terminalen (╯°□°)╯︵ ɢɪᴛ --ʀᴇꜱᴇᴛ --ʜᴀʀᴅ ⎯┻━┻
+
 
 Denne guide hjælper dig med at komme i gang med Git og GitHub direkte fra din terminal. Du lærer, hvordan du initialiserer et Git-repository, laver commits, og uploader dit projekt til GitHub.
 
