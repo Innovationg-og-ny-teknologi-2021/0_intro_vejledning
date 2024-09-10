@@ -1,4 +1,4 @@
-# Git & GitHub Guide: Brug af Terminalen
+# Git & GitHub Guide: Brug af Terminalen └[∵┌]└[ ∵ ]┘[┐∵]┘
 
 
 Denne guide hjælper dig med at komme i gang med Git og GitHub direkte fra din terminal. Du lærer, hvordan du initialiserer et Git-repository, laver commits, og uploader dit projekt til GitHub.
@@ -17,7 +17,7 @@ Hvis du ikke er komfortable med brugen af kommandoer og arbejde i terminal, så 
 Hvis du heller vil prøve kræfter med github kommandoer (som typisk bruges meget mere i virksomheder) så er der her en guide. 
 
 
-# Github Push, Pull og Merge
+# Github Push, Pull og Merge ¯\_(シ)_/¯
 
 ## 1 - Opret en GitHub Repository
 
@@ -121,7 +121,7 @@ Hvis du heller vil prøve kræfter med github kommandoer (som typisk bruges mege
 Disse er typisk filer du ikke behøver gemme i dit online repo da de installeres lokalt ved npm install
 
 
-# Gode tips til når i arbejder med jeres repo (især til gruppe arbejde)
+# Gode tips til når i arbejder med jeres repo (især til gruppe arbejde) (-.-(-.(-(-.(-.-).-)-).-)-.-)
 
 ## 1 - Opret nye Branches (Valgfrit men anbefalet!)
 
