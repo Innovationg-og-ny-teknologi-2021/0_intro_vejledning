@@ -101,12 +101,21 @@ Hvis du heller vil prøve kræfter med github kommandoer (som typisk bruges mege
     git push -u origin master
     ```
 
+   Du kan typisk også bare bruge:
+   ```
+    git push
+   ``` 
 
 ## 8 - Pull ændringer fra GitHub
 
 1. Hvis der er ændringer i dit GitHub repository, som du vil hente lokalt:
     ```
     git pull origin main
+    ```
+
+    eller bare
+    ```
+    git pull 
     ```
 
 
