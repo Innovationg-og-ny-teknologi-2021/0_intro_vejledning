@@ -128,7 +128,7 @@ Hvis du heller vil prøve kræfter med github kommandoer (som typisk bruges mege
     .env
     ```
 
-Disse er typisk filer du ikke behøver gemme i dit online repo da de installeres lokalt ved npm install
+Disse er typisk filer du ikke behøver gemme i dit online repo da de installeres eller konfigueres lokalt ved npm install
 
 <br></br>
 
