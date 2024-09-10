@@ -1,4 +1,4 @@
-# Git & GitHub Guide: Brug af Terminalen (╯°□°)╯︵ ɢɪᴛ --ʀᴇꜱᴇᴛ --ʜᴀʀᴅ ⎯┻━┻
+# Git & GitHub Guide: Brug af Terminalen
 
 
 Denne guide hjælper dig med at komme i gang med Git og GitHub direkte fra din terminal. Du lærer, hvordan du initialiserer et Git-repository, laver commits, og uploader dit projekt til GitHub.
@@ -196,7 +196,7 @@ For at se historikken for commits i dit repository, brug:
     ```
 
 
-## 5 - Fejlretning og TIlbagetrækning
+## 5 - Fejlretning og TIlbagetrækning (╯°□°)╯︵ ɢɪᴛ --ʀᴇꜱᴇᴛ --ʜᴀʀᴅ ⎯┻━┻
 
 1. Hvis du vil tilbagetrække en fil, som du allerede har tilføjet til staging-området:
     ```
