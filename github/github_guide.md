@@ -16,6 +16,7 @@ Hvis du ikke er komfortable med brugen af kommandoer og arbejde i terminal, så 
 
 Hvis du heller vil prøve kræfter med github kommandoer (som typisk bruges meget mere i virksomheder) så er der her en guide. 
 
+<br></br>
 
 # Github Push, Pull og Merge ¯\_(シ)_/¯
 
@@ -120,6 +121,7 @@ Hvis du heller vil prøve kræfter med github kommandoer (som typisk bruges mege
 
 Disse er typisk filer du ikke behøver gemme i dit online repo da de installeres lokalt ved npm install
 
+<br></br>
 
 # Gode tips til når i arbejder med jeres repo (især til gruppe arbejde) (-.-(-.(-(-.(-.-).-)-).-)-.-)
 
