@@ -2,7 +2,7 @@
 
 #### I denne vejledning skal slutproduktet være
 <ul>
-    <li>At have anbefalet IDE, webstorm installeret og kørende</li>
+    <li>At have anbefalet visuel studio kort eller andet IDE kørende</li>
     <li>At have expo, React Native frameworket kørende</li>
     <li>At have en github konto og have lavet dit første commit til et repository</li>
 </ul> 
